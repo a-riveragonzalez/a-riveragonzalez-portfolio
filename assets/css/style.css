@@ -17,13 +17,14 @@ header{
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    /* border: 10px black solid; */
     background-color: var(--dark-grey);
 }
 
 h1{
     background-color: var(--teal);
     color: var(--dark-grey);
+    padding-left: 5px;    
+    padding-right: 5px;
 }
 
 nav{
@@ -44,7 +45,7 @@ header a{
 }
 
 h2{
-    border-right: 5px solid var(--dark-grey);
+    border-right: 4px solid var(--dark-grey);
     padding: 10px;
     width: 20%;
     text-align: right;
@@ -58,8 +59,17 @@ p{
 }
 
 /* manipulate articles */
+article{
+    border: 4px solid var(--teal);
+}
+
 article:hover{
-    border: solid 5px var(--teal);
+    border: solid 4px red;
+}
+
+article::after{
+    position: relative;
+    /* content: "hello"; */
 }
 
 img{
@@ -69,6 +79,7 @@ img{
 footer{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 footer ul, footer li, footer a{
@@ -90,11 +101,13 @@ footer a{
 .about-me{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .work-block{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .cards{
