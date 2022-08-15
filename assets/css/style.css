@@ -55,7 +55,15 @@ p{
     padding: 5px;
     width: 80%;
     text-align: center;
-    border: solid 5px red;
+}
+
+/* manipulate articles */
+article:hover{
+    border: solid 5px var(--teal);
+}
+
+img{
+    width: 200px;
 }
 
 footer{
@@ -84,9 +92,16 @@ footer a{
     justify-content: space-between;
 }
 
-.cards{
+.work-block{
     display: flex;
     justify-content: space-between;
+}
+
+.cards{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 /* media queries */
