@@ -17,10 +17,29 @@ header{
     border: 10px black solid;
 }
 
+h2, p{
+    border: 5px red solid;
+}
+
 footer{
     border: 10px black solid;
+    display: flex;
+    justify-content: space-between;
 }
-/* class selectors */
 
+/* class selectors */
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border: 10px black solid;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border: 10px black solid;
+}
 /* media queries */
 
