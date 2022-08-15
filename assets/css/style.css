@@ -10,13 +10,15 @@
 
 /* element selectors */
 header{
+    display: flex;
+    justify-content: space-between;
     color: red;
     text-align: left;
     border: 10px black solid;
 }
 
 footer{
-    
+    border: 10px black solid;
 }
 /* class selectors */
 
