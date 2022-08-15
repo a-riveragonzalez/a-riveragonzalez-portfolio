@@ -1,0 +1,19 @@
+/* defining variables */
+:root{
+
+}
+
+/* universal selectors */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* element selectors */
+header{
+    color: red;
+    text-align: center;
+}
+/* class selectors */
+
+/* media queries */
+
