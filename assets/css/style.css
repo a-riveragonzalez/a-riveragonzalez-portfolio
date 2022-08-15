@@ -1,44 +1,68 @@
 /* defining variables */
 :root{
-
+    --dark-grey: #393E46;
+    --teal: #4ECCA3;
+    --light-grey: #EEEEEE;
 }
 
 /* universal selectors */
 *{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--light-grey);
 }
 
 /* element selectors */
 header{
+    padding: 10px;
     display: flex;
     justify-content: space-between;
-    color: red;
-    text-align: left;
-    border: 10px black solid;
+    /* border: 10px black solid; */
+    background-color: var(--dark-grey);
 }
 
-h2, p{
-    border: 5px red solid;
+h1{
+    background-color: var(--teal);
+    color: var(--dark-grey);
+}
+
+nav{
+    background-color: var(--dark-grey);
+    align-items: center;
+    padding: 9px;
+}
+
+nav ul, li, a{
+    display: inline;
+    background-color: var(--dark-grey);
+    color: var(--teal);
+}
+
+h2{
+    border-right: 5px solid red;
+    width: 25%;
+    text-align: right;
+}
+
+p{
+    border: 5px solid red;
 }
 
 footer{
-    border: 10px black solid;
     display: flex;
     justify-content: space-between;
+    border: 10px black solid;
 }
 
 /* class selectors */
 .about-me{
     display: flex;
     justify-content: space-between;
-    text-align: left;
     border: 10px black solid;
 }
 
 .cards{
     display: flex;
     justify-content: space-between;
-    text-align: left;
     border: 10px black solid;
 }
 /* media queries */
