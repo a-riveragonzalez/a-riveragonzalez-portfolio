@@ -11,7 +11,12 @@
 /* element selectors */
 header{
     color: red;
-    text-align: center;
+    text-align: left;
+    border: 10px black solid;
+}
+
+footer{
+    
 }
 /* class selectors */
 
