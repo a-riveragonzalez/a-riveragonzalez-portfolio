@@ -58,6 +58,17 @@ p{
     text-align: center;
 }
 
+/* background image */
+figure{
+    height: 200px;
+    width: 100%;
+    background-image: url("../images/background-image.jpg");
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: top;
+}
+
+
 /* manipulate articles */
 article{
     border: 4px solid var(--teal);
