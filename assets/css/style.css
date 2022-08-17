@@ -169,20 +169,43 @@ footer a {
   header {
     display: block;
   }
-  h2 {
+  h1 {
     text-align: center;
+  }
+  h2 {
+    width: 100%;
+    text-align: center;
+    border-right: 0px;
     border-bottom: 4px solid var(--dark-grey);
   }
+  nav {
+    text-align: center;
+  }
+
+  p {
+    padding: 10px;
+    width: 100%;
+  }
+
   .about-me {
     display: block;
   }
   .work-block {
     display: block;
+    margin-bottom: 0;
+  }
+  .cards {
+    width: 100%;
   }
   article {
     width: 100%;
+    margin-bottom: 10px;
   }
   footer {
     display: block;
+  }
+
+  .contact-me-ul {
+    width: 100%;
   }
 }
