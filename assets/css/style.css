@@ -156,6 +156,10 @@ footer a {
   flex: 1 0 100%;
 }
 
+.horiseon-card img {
+  width: 100%;
+}
+
 /* media queries */
 
 /* Tablets  */
