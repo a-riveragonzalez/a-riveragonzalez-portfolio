@@ -76,7 +76,8 @@ article {
 }
 
 article:hover {
-  border: solid 4px red;
+  transform: scale(1.2);
+  box-shadow: 8px 10px 7px #c7c7c7;
 }
 
 /* part of article */
