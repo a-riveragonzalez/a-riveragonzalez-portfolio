@@ -151,3 +151,38 @@ footer a {
 } */
 
 /* media queries */
+
+/* Tablets  */
+@media screen and (max-width: 992px) {
+  .cards {
+  }
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+  .cards {
+  }
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+  header {
+    display: block;
+  }
+  h2 {
+    text-align: center;
+    border-bottom: 4px solid var(--dark-grey);
+  }
+  .about-me {
+    display: block;
+  }
+  .work-block {
+    display: block;
+  }
+  article {
+    width: 100%;
+  }
+  footer {
+    display: block;
+  }
+}
