@@ -73,6 +73,7 @@ figure {
 /* manipulate articles */
 article {
   border: 4px solid var(--teal);
+  flex: 1 2 200px;
 }
 
 article:hover {
@@ -95,7 +96,7 @@ div p {
 }
 
 img {
-  width: 200px;
+  width: 300px;
 }
 
 footer {
@@ -128,6 +129,15 @@ footer a {
   padding-bottom: 20px;
 }
 
+.about-me img,
+.about-me p {
+  width: 40%;
+}
+
+.about-me img {
+  width: 180px;
+}
+
 .work-block {
   display: flex;
   justify-content: space-between;
@@ -138,18 +148,13 @@ footer a {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 20px;
 }
 
-/* possible a way to style this? */
-/* .horiseon-card::after {
-  content: "hello";
-  position: relative;
-  top: -50px;
-  background-color: var(--teal);
-  color: var(--dark-grey);
-  z-index: 2;
-} */
+.horiseon-card {
+  flex: 1 0 100%;
+}
 
 /* media queries */
 
@@ -191,6 +196,11 @@ footer a {
   .about-me {
     display: block;
   }
+  .about-me img,
+  .about-me p {
+    width: 100%;
+  }
+
   .work-block {
     display: block;
     margin-bottom: 0;
