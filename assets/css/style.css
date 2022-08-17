@@ -1,132 +1,153 @@
 /* defining variables */
-:root{
-    --dark-grey: #393E46;
-    --teal: #4ECCA3;
-    --light-grey: #EEEEEE;
+:root {
+  --dark-grey: #393e46;
+  --teal: #4ecca3;
+  --light-grey: #eeeeee;
 }
 
 /* universal selectors */
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--light-grey);
-    color: var(--dark-grey);
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--light-grey);
+  color: var(--dark-grey);
 }
 
 /* element selectors */
-header{
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--dark-grey);
+header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--dark-grey);
 }
 
-h1{
-    background-color: var(--teal);
-    color: var(--dark-grey);
-    padding-left: 5px;    
-    padding-right: 5px;
+h1 {
+  background-color: var(--teal);
+  color: var(--dark-grey);
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-nav{
-    background-color: var(--dark-grey);
-    align-items: center;
-    padding: 9px;
+nav {
+  background-color: var(--dark-grey);
+  align-items: center;
+  padding: 9px;
 }
 
-header ul, header li, header a{
-    display: inline;
-    background-color: var(--dark-grey);
+header ul,
+header li,
+header a {
+  display: inline;
+  background-color: var(--dark-grey);
 }
 
-header a{
-    color: var(--teal);
-    text-decoration: solid;
-    border-bottom: 2px solid var(--teal);
+header a {
+  color: var(--teal);
+  text-decoration: solid;
+  border-bottom: 2px solid var(--teal);
 }
 
-h2{
-    border-right: 4px solid var(--dark-grey);
-    padding: 10px;
-    width: 20%;
-    text-align: right;
-    color: var(--dark-grey);
+h2 {
+  border-right: 4px solid var(--dark-grey);
+  padding: 10px;
+  width: 20%;
+  text-align: right;
+  color: var(--dark-grey);
 }
 
-p{
-    padding: 5px;
-    width: 80%;
-    text-align: center;
+p {
+  padding: 5px;
+  width: 80%;
+  text-align: center;
 }
 
 /* background image */
-figure{
-    height: 200px;
-    width: 100%;
-    background-image: url("../images/background-image.jpg");
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: top;
+figure {
+  height: 200px;
+  width: 100%;
+  background-image: url("../images/background-image.jpg");
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: top;
 }
-
 
 /* manipulate articles */
-article{
-    border: 4px solid var(--teal);
+article {
+  border: 4px solid var(--teal);
 }
 
-article:hover{
-    border: solid 4px red;
+article:hover {
+  border: solid 4px red;
 }
 
-article::after{
-    position: relative;
-    /* content: "hello"; */
+/* part of article */
+div {
+  background-color: var(--teal);
+  color: var(--dark-grey);
+  position: relative;
+  bottom: 20px;
 }
 
-img{
-    width: 200px;
+div h3,
+div p {
+  background-color: var(--teal);
+  text-align: center;
 }
 
-footer{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 20px;
+img {
+  width: 200px;
 }
 
-footer ul, footer li, footer a{
-    display: flex;
-    align-items: stretch;
-    justify-content: center;
-    width: 80%;
-    text-align: center;
-    padding: 7px;
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
 }
 
-footer a{
-    padding: 0;
-    text-decoration: solid;
-    border-bottom: 2px solid var(--dark-grey);
+footer ul,
+footer li,
+footer a {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 80%;
+  text-align: center;
+  padding: 7px;
+}
+
+footer a {
+  padding: 0;
+  text-decoration: solid;
+  border-bottom: 2px solid var(--dark-grey);
 }
 
 /* class selectors */
-.about-me{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 20px;
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
 }
 
-.work-block{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 20px;
+.work-block {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
 }
 
-.cards{
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
+.cards {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
 }
+
+/* possible a way to style this? */
+/* .horiseon-card::after {
+  content: "hello";
+  position: relative;
+  top: -50px;
+  background-color: var(--teal);
+  color: var(--dark-grey);
+  z-index: 2;
+} */
 
 /* media queries */
-
