@@ -81,6 +81,10 @@ article:hover {
   box-shadow: 8px 10px 7px #c7c7c7;
 }
 
+article:active {
+  border: solid 20px red;
+}
+
 /* part of article */
 div {
   background-color: var(--teal);
@@ -93,6 +97,7 @@ div h3,
 div p {
   background-color: var(--teal);
   text-align: center;
+  width: 100%;
 }
 
 img {
@@ -139,8 +144,7 @@ footer a {
   line-height: 100%;
   height: 100%;
   padding: 25px;
-  margin-top: 28px;
-  margin-bottom: 28px;
+  margin-top: 24px;
   margin-right: 28px;
 }
 
@@ -164,7 +168,7 @@ footer a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
 }
 
 .horiseon-card {
