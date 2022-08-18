@@ -195,7 +195,7 @@ footer a {
 }
 
 /* Small smartphones - image placeholders change color */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   header {
     display: block;
   }
