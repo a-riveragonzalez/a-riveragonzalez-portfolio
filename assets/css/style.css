@@ -81,10 +81,6 @@ article:hover {
   box-shadow: 8px 10px 7px #c7c7c7;
 }
 
-article:active {
-  border: solid 20px red;
-}
-
 /* part of article */
 div {
   background-color: var(--teal);

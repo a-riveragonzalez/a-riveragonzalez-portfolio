@@ -14,4 +14,4 @@ https://github.com/a-riveragonzalez/a-riveragonzalez-portfolio
 
 ## Preview
 
-![arely-rivera-portfolio-gif](horiseon-landing-page.gif)
+![arely-rivera-portfolio-gif](arely-portfolio.gif)
