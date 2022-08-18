@@ -13,11 +13,26 @@
 }
 
 /* element selectors */
+
+/* header */
 header {
   padding: 10px;
   display: flex;
   justify-content: space-between;
   background-color: var(--dark-grey);
+}
+
+header ul,
+header li,
+header a {
+  display: inline;
+  background-color: var(--dark-grey);
+}
+
+header a {
+  color: var(--teal);
+  text-decoration: solid;
+  border-bottom: 2px solid var(--teal);
 }
 
 h1 {
@@ -33,18 +48,7 @@ nav {
   padding: 9px;
 }
 
-header ul,
-header li,
-header a {
-  display: inline;
-  background-color: var(--dark-grey);
-}
-
-header a {
-  color: var(--teal);
-  text-decoration: solid;
-  border-bottom: 2px solid var(--teal);
-}
+/* h2 and p elements */
 
 h2 {
   border-right: 4px solid var(--dark-grey);
@@ -70,7 +74,7 @@ figure {
   background-position: top;
 }
 
-/* manipulate articles */
+/* work section */
 article {
   border: 4px solid var(--teal);
   flex: 1 2 200px;
@@ -86,7 +90,6 @@ article img {
   width: 100%;
 }
 
-/* part of article */
 div {
   background-color: var(--teal);
   color: var(--dark-grey);
@@ -105,6 +108,7 @@ img {
   width: 300px;
 }
 
+/* footer */
 footer {
   display: flex;
   justify-content: space-between;
@@ -181,33 +185,22 @@ footer a {
 }
 
 /* media queries */
-
-/* Tablets  */
-@media screen and (max-width: 992px) {
-  .cards {
-  }
-}
-
-/* Large smartphones - navbar changes color */
-@media screen and (max-width: 768px) {
-  .cards {
-  }
-}
-
-/* Small smartphones - image placeholders change color */
 @media screen and (max-width: 768px) {
   header {
     display: block;
   }
+
   h1 {
     text-align: center;
   }
+
   h2 {
     width: 100%;
     text-align: center;
     border-right: 0px;
     border-bottom: 4px solid var(--dark-grey);
   }
+
   nav {
     text-align: center;
   }
@@ -217,9 +210,19 @@ footer a {
     width: 100%;
   }
 
+  article {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    display: block;
+  }
+
   .about-me {
     display: block;
   }
+
   .about-me img,
   .about-me p {
     width: 100%;
@@ -229,15 +232,9 @@ footer a {
     display: block;
     margin-bottom: 0;
   }
+
   .cards {
     width: 100%;
-  }
-  article {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  footer {
-    display: block;
   }
 
   .contact-me-ul {

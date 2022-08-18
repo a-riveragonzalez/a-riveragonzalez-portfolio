@@ -1,10 +1,12 @@
 /* Resets the box size of every element */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  ol, ul {
-    list-style: none;
-  }
+/* removes the default bullet points in lists */
+ol,
+ul {
+  list-style: none;
+}
