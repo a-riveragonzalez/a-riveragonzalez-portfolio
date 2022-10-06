@@ -184,6 +184,10 @@ footer a {
   width: 100%;
 }
 
+.project-summary a {
+  background-color: var(--teal);
+}
+
 /* media queries */
 @media screen and (max-width: 768px) {
   header {
